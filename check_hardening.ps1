@@ -1,4 +1,5 @@
 # powershell -ExecutionPolicy Bypass -File .\check_hardening.ps1 -Verbose
+#  auditpol /get /category:*
 
 <#
 .SYNOPSIS
@@ -232,3 +233,4 @@ Write-Report ""
 
 Write-Report "======== FIN DEL REPORTE ========"
 Write-Host "Reporte generado en: $report"
+
